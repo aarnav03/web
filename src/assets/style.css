@@ -1,0 +1,94 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background: #1e1e1e;
+	color: #faf4d3;
+	/* color: #004643; */
+}
+
+/* main layout */
+.page {
+	min-height: 100vh;
+	/* background: #004643; */
+	background: #0c1618;
+
+	padding: 2rem 4rem 4rem 6.5rem;
+}
+
+
+section {
+	margin-bottom: 6rem;
+}
+
+/* intro*/
+.intro {
+	margin-bottom: 5rem;
+}
+
+.intro h1 {
+	font-size: 3.5rem;
+	font-weight: 800;
+	line-height: 1.05;
+	margin-bottom: 2.2rem;
+	padding: 2rem 4rem 0rem 6.5rem;
+}
+
+.intro p {
+	max-width: 420px;
+	line-height: 1.6;
+	color: #bdbdbd;
+	padding: 0rem 4rem 4rem 6.5rem;
+
+}
+
+/* skill */
+.skills h2,
+.work h2 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+	padding: 0rem 4rem 4rem 6.5rem;
+}
+
+.skill img {
+	width: 28px;
+	height: 28px;
+	opacity: 0.8;
+	background: none;
+	color: #faf4d3d3;
+	fill: #faf4d3;
+}
+
+
+.skills-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(56px, 1fr));
+	gap: 1.75rem;
+	max-width: 320px;
+}
+
+.skill {
+	width: 64px;
+	height: 64px;
+	/* background: #2a2a2a; */
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* wrk */
+.projects {
+	display: flex;
+	gap: 2.5rem;
+	overflow-x: auto;
+	padding-bottom: 1rem;
+}
+
+.card {
+	min-width: 280px;
+	height: 400px;
+	background: #2a2a2a;
+	border-radius: 14px;
+}
