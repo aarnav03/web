@@ -37,6 +37,21 @@
 				<div class="card"></div>
 				<div class="card"></div>
 			</div>
+			<section class="skills">
+				<div class="skills-grid">
+					<div class="skill" id="cn">
+						<img src="/src/assets/icons/gh.svg" alt="github" />
+					</div>
+
+					<div class="skill" id="cn">
+						<img src="/src/assets/icons/linkedin.svg" alt="linkedin" />
+
+					</div>
+
+				</div>
+			</section>
+
+
 		</section>
 	</main>
 </template>
