@@ -16,6 +16,11 @@
 html {
   scrollbar-width: none;
 }
+a:link, a:visited, a:hover, a:active {
+  color: inherit; /* This makes the link inherit the color of its parent element */
+  text-decoration: none; /* This removes the default underline */
+}
+
 
 html,
 body {

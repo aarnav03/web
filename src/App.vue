@@ -9,6 +9,7 @@
     <section class="work">
       <h2>Projects</h2>
       <div class="projects">
+        <a href="https://github.com/aarnav03/lc3-vm" target="_blank"> 
         <div class="card">
           <div class="card-cover">
             <img src="./assets/lc3.png" alt="lc3 cover" />
@@ -22,7 +23,9 @@
               <img src="./assets/icons/c.svg" alt="c" />
             </div>
           </div>
-        </div>
+        </div> </a>
+
+<a href="https://github.com/aarnav03/vimnav" target="_blank"> 
         <div class="card">
           <div class="card-cover">
             <img src="./assets/vimnav3.png" alt="vimnav cover" />
@@ -36,8 +39,9 @@
               <img src="./assets/icons/c.svg" alt="c" />
             </div>
           </div>
-        </div>
+        </div> </a>
 
+<a href="https://github.com/heisenburgh/pixarch" target="_blank"> 
         <div class="card">
           <div class="card-cover">
             <img src="./assets/i3.jpg" alt="pixarch cover" />
@@ -51,7 +55,7 @@
               <img src="./assets/icons/bash.svg" alt="bash" />
             </div>
           </div>
-        </div>
+        </div> </a>
 
         <!-- <div class="card"></div> -->
         <!-- <div class="card"></div> -->
