@@ -67,7 +67,7 @@ section {
 
 .intro p {
 	max-width: 360px;
-	line-height: 1.6;
+	line-height: 0.8;
 	color: var(--sec);
 	/* padding: 0rem 4rem 4rem 6.5rem; */
 
