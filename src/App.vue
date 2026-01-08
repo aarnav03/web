@@ -40,12 +40,14 @@
 			<section class="skills">
 				<div class="skills-grid">
 					<div class="skill" id="cn">
+						<a href="https://github.com/aarnav03"  target="_blank">
 						<img src="/src/assets/icons/gh.svg" alt="github" />
+					</a>
 					</div>
 
 					<div class="skill" id="cn">
-						<img src="/src/assets/icons/linkedin.svg" alt="linkedin" />
-
+						<a href="https://www.linkedin.com/in/aarnav-panchal-0923952b7/" target="_blank" >
+						<img src="/src/assets/icons/linkedin.svg" alt="linkedin" /></a>
 					</div>
 
 				</div>

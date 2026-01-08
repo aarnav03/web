@@ -1,3 +1,7 @@
+@font-face {
+	font-family: titan;
+	src: url(../assets/TitanOne-Regular.ttf);
+}
 html,
 body {
 	margin: 0;
@@ -5,7 +9,8 @@ body {
 	background: #1e1e1e;
 	color: #faf4d3;
 	/* color: #004643; */
-	font-family: "Sigmar", sans-serif;
+	font-family: "titan", sans-serif;
+	font-weight: 400;
 }
 
 /* main layout */
@@ -16,7 +21,7 @@ body {
 
 	/* padding: 2rem 4rem 4rem 6.5rem; */
 	padding-left: 22rem;
-	padding-top: 4rem;
+	padding-top: 1rem;
 	padding-bottom: 4rem;
 }
 
@@ -27,6 +32,7 @@ section {
 
 /* intro*/
 .intro {
+	margin-top: 0rem;
 	margin-bottom: 5rem;
 }
 
@@ -117,4 +123,42 @@ section {
 	height: 300px;
 	background: #004643;
 	border-radius: 14px;
+}
+
+@media (max-width: 768px) {
+
+	/* Page padding */
+	.page {
+		padding: 1.5rem;
+	}
+
+	/* Intro */
+	.intro {
+		margin-left: 0;
+	}
+
+	.intro h1 {
+		font-size: 2.4rem;
+	}
+
+	.intro p {
+		max-width: 100%;
+	}
+
+	/* Skills */
+	.skills-grid {
+		margin-left: 0;
+		flex-wrap: wrap;
+	}
+
+	/* Projects */
+	.projects {
+		margin-left: 0;
+		gap: 1.5rem;
+	}
+
+	.card {
+		min-width: 240px;
+		height: 360px;
+	}
 }
