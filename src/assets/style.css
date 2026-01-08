@@ -2,6 +2,15 @@
 	font-family: titan;
 	src: url(../assets/TitanOne-Regular.ttf);
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
 html,
 body {
 	margin: 0;
@@ -124,6 +133,99 @@ section {
 	background: #004643;
 	border-radius: 14px;
 }
+.card {
+  min-width: 300px;
+  height: 420px;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #1f1f1f;
+
+  display: flex;
+  flex-direction: column;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25); */
+}
+
+/* cover image */
+.card-cover {
+  position: relative;
+  height: 50%;
+  overflow: hidden;
+}
+
+.card-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+  transition: transform 0.4s ease;
+}
+
+.card:hover .card-cover img {
+  transform: scale(1.05);
+}
+
+/* subtle gradient overlay */
+.card-cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+
+.card-content {
+  padding: 1.5rem;
+  padding-bottom: 0rem;
+  /* padding: 1.1rem 1.1rem 0.2rem 1.1rem; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.card h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 0.7rem;
+  line-height: 1.4;
+  color: #cfcfcf;
+}
+
+.card-stack {
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.card-stack img {
+  width: 18px;
+  height: 18px;
+  display: block;
+
+  opacity: 0.75;
+  filter: invert(1) brightness(0.7);
+}
+
+.card:hover .card-stack img {
+  opacity: 1;
+  filter: invert(1);
+}
+
 
 @media (max-width: 768px) {
 
