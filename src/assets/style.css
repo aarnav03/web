@@ -1,7 +1,8 @@
 :root{
-	--prim:#393e41;
-	--sec:#f6f7eb;
+	--prim:#111111;
+	--sec:#eaeaea;
 	--tert:#e94f37;
+	--card:#161616
 }
 @font-face {
 	font-family: titan;
@@ -143,8 +144,9 @@ section {
   height: 420px;
   border-radius: 14px;
   overflow: hidden;
-  background: var(--prim);
+  /* background: var(--prim); */
   /* background: #0c1618; */
+  background: var(--card);
 
   display: flex;
   flex-direction: column;
@@ -155,7 +157,7 @@ section {
 .card:hover {
   transform: translateY(-6px);
   /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25); */
-  color: var(--tert);
+  /* color: var(--tert); */
 }
 
 /* cover image */
