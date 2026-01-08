@@ -20,8 +20,8 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	background: #1e1e1e;
-	color: #faf4d3;
+	background: var(--prim);
+	color: var(--sec);
 	/* color: #004643; */
 	font-family: "titan", sans-serif;
 	font-weight: 400;
@@ -31,7 +31,7 @@ body {
 .page {
 	min-height: 100vh;
 	/* background: #004643; */
-	background: #0c1618;
+	background: var(--prim);
 
 	/* padding: 2rem 4rem 4rem 6.5rem; */
 	padding-left: 22rem;
@@ -62,7 +62,7 @@ section {
 .intro p {
 	max-width: 360px;
 	line-height: 1.6;
-	color: #bdbdbd;
+	color: var(--sec);
 	/* padding: 0rem 4rem 4rem 6.5rem; */
 
 }
@@ -96,8 +96,7 @@ section {
 	height: 28px;
 	opacity: 0.8;
 	background: none;
-	color: #faf4d3d3;
-	fill: #faf4d3;
+	color: var(--sec);
 	display: block;
 	/* padding: 0rem 4rem 4rem 6.5rem; */
 
@@ -136,7 +135,7 @@ section {
 .card {
 	min-width: 480px;
 	height: 300px;
-	background: #004643;
+	background: var(--prim);
 	border-radius: 14px;
 }
 .card {
@@ -144,7 +143,7 @@ section {
   height: 420px;
   border-radius: 14px;
   overflow: hidden;
-  background: #1f1f1f;
+  background: var(--prim);
   /* background: #0c1618; */
 
   display: flex;
@@ -156,6 +155,7 @@ section {
 .card:hover {
   transform: translateY(-6px);
   /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25); */
+  color: var(--tert);
 }
 
 /* cover image */
@@ -208,7 +208,7 @@ section {
 .card p {
   font-size: 0.7rem;
   line-height: 1.4;
-  color: #cfcfcf;
+  color: var(--sec);
 }
 
 .card-stack {
