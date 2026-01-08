@@ -71,7 +71,7 @@ section {
 /* skill */
 .skills h2,
 .work h2 {
-	font-size: 1.1rem;
+	font-size: 1.0rem;
 	font-weight: 600;
 	margin-bottom: 2rem;
 	/* padding: 0rem 4rem 4rem 6.5rem; */
@@ -93,8 +93,8 @@ section {
 }
 
 .skill img {
-	width: 28px;
-	height: 28px;
+	width: 24px;
+	height: 24px;
 	opacity: 0.8;
 	background: none;
 	color: var(--sec);
@@ -122,7 +122,11 @@ section {
 	align-items: center;
 	justify-content: center;
 }
-
+.social {
+	display: flex;
+	justify-content: right;
+	padding-right: 1.3rem;
+}
 /* wrk */
 .projects {
 	display: flex;
